@@ -1,0 +1,32 @@
+body {
+    background: rgb(34, 33, 33);
+    color: white;
+    font: normal 15pt Arial;
+}
+
+header {
+    color:gold;
+    font: normal 15pt Times;
+    text-align: center;
+}
+
+section {
+background: rgb(87, 87, 158);
+color:cornsilk;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.671);
+
+
+}
+select#flista {
+    width: 150px;
+}
+footer {
+    color:antiquewhite;
+    text-align: center;
+    font-style: italic;
+
+}

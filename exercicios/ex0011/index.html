@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Aumente e diminua o tamanho do navegador ou teste em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+    <h1>Tocando audios</h1>
+    <p>Usando a tag audio, utilize o src e localize o audio, utilize controls para aparecer os controles</p>
+    <audio src="midia/take.mp3" controls autoplay></audio>
+    <!-- compativel com MP3 WAV OGG-->
+    <audio controls>
+        <source src="midia/bones.mp3" type="audio/mpeg">
+        <!--para audio mp3 usa audio/mpeg
+        para wav usa audio/wav
+    e ogg audio/ogg-->
+    <p>seu navegador nao consegue reproduzir esse audio <a href="midia/bones.mp3">clique aqui para baixa-lo</a></p>
+    </audio>
+</body>
+</html>

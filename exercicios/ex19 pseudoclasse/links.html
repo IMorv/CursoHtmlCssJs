@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        body {
+            font-family:Arial, Helvetica, sans-serif ;
+            background-color: #C0FDFB;
+            color:#0582CA ;
+        }
+        
+        h1 {
+            color: #00A6FB;
+        }
+
+        a {
+            color:#006494 ;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .especial {
+            background-color:   #afe6e3c4;
+        }
+        .especial::before{
+            content: '🎶';
+        }
+
+        a:visited {
+            color: #124E78;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #80A4ED;
+        }
+        a:active{
+            color: #B1EDE8;
+        }
+        a::after{
+            content: '{link}';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+        <h1>Pesonalizando links</h1>
+        <ul>
+            <li><a href="https://youtu.be/SsKT0s5J8ko" class="especial" target="_blank">Mac Miller - Self Care</a></li>
+            <li><a href="https://youtu.be/4Z9vQe5RFXk" class="especial" target="_blank">Duzz - "Sorry Mom"</a></li>
+            <li><a href="https://youtu.be/cr82wSBZeeQ" class="especial" target="_blank">Juice WRLD - Armed & Dangerous</a></li>
+        </ul>
+</body>
+</html>
